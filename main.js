@@ -3,7 +3,7 @@ let password = document.querySelector('.password')
 let btn = document.querySelector('.btn')
 
 btn.onclick = () => {
-  if(username.value === 'xabb0s' && password.value === 'abbos2005#'){
+  if(username.value === 'username' && password.value === 'password'){
     window.location.href = ('./home/home.html')
   }
   else{
